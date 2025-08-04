@@ -18,7 +18,7 @@ pipeline {
         }
         stage('Run Application') {
             steps {
-                bat 'java -cp target/java-batch-job-example-1.0-SNAPSHOT.jar com.expertszen.BatchJobApp'
+                bat 'java -cp target/batchjobapp-1.0-SNAPSHOT.jar com.expertszen.BatchJobApp'
             }
         }
         stage('Test') {
